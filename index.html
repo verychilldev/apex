@@ -195,6 +195,20 @@
     <!-- Ensure that any additional scripts are loaded with defer or async where appropriate -->
 
     <!-- Google Analytics or other tracking scripts can be added here, preferably with async -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-1053684647"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-1053684647");
+    </script>
 
     <!-- Styles for Fonts, Critical CSS, etc., already included above -->
   </head>
